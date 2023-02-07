@@ -1,0 +1,100 @@
+.background{
+    background-image:url(./background.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.pokemon{
+    width: 170px;
+    height: 140px;
+    margin: 5px;
+    padding: 20px;
+    align-items: center;
+    justify-content: left;
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+}
+#main-container{
+    max-width: 900px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+#titulo{
+    width: 928px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(189 185 185);
+}
+#charmander{
+    background-image: url("./charmander.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#bulbasaur{
+    background-image: url("./bulbasaur.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#squirtle{
+    background-image: url("./squirtle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 4rem;
+    width: 100%;
+    min-width: 100%;
+}
+.card{
+    height: 90vh;
+    width: 35rem;
+    min-width: 35rem;
+    box-shadow: 0. 1.5rem 4rem rgba(0,0,0, 0.6);
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0,8rem;
+    position: relative;
+    background-color: #fff;
+    z-index: 10;
+}
+.card-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+}
+.card-image img{
+    width: 25rem;
+    height: auto;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    backface-visibility: hidden;
+    margin-bottom: 2rem;
+}
+.card:hover .card-image img{
+    width: 30rem;
+    margin-top: -6.2rem;
+    position: relative;
+    z-index: 50;
+    transform: rotate(-15deg);
+}
+.cajas{
+    display: flex;
+    flex-direction:row;
+}
+.cajagrande{
+    background-color: rgba(219, 50, 50, 0.747);
+    display: flex;
+    flex-direction:row;
+}
